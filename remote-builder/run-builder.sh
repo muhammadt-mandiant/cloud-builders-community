@@ -6,7 +6,7 @@
 USERNAME=${USERNAME:-admin}
 REMOTE_WORKSPACE=${REMOTE_WORKSPACE:-/home/${USERNAME}/workspace/}
 INSTANCE_NAME=${INSTANCE_NAME:-builder-$(cat /proc/sys/kernel/random/uuid)}
-ZONE=${ZONE:-us-central1-f}
+ZONE=${ZONE:-us-central1-a}
 INSTANCE_ARGS=${INSTANCE_ARGS:---preemptible}
 SSH_ARGS=${SSH_ARGS:-}
 GCLOUD=${GCLOUD:-gcloud}

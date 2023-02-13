@@ -15,7 +15,6 @@ gcloud builds submit --config cloudbuild.yaml .
 ```
 
 You should now see 2 instances being provisioned in parallel then the `test/no-op.sh` being
-run inside containers based on the `ubuntu:16.04` Docker image.
+run inside containers based on the `ubuntu:22.04` Docker image.
 
 Further examples are available in the `test-configs` directory.
-
